@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'IP:'
+read ip
+nmap -sn --open $ip > ping.txt
